@@ -10,6 +10,10 @@ export default defineConfig({
           "width": 390,
           "height": 664
         },
+        screen: {
+          "width": 390,
+          "height": 844
+        },
       },
     },
   ],
