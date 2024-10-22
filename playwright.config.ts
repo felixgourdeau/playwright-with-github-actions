@@ -7,6 +7,8 @@ export default defineConfig({
       use: { 
         ...devices['Desktop Safari'],
         isMobile: true,
+        hasTouch: true,
+        deviceScaleFactor: 3,
       },
     },
   ],
