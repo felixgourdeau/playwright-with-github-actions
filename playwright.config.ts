@@ -4,7 +4,7 @@ export default defineConfig({
   projects: [
     {
       name: 'webkit',
-      use: { ...devices['iPhone 13'] },
+      use: { ...devices['Desktop Safari'] },
     },
   ],
 });
