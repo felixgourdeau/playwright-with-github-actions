@@ -25,7 +25,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests on iOS
-        run: npx playwright test --project=webkit
+        run: npx playwright test --project=chrome
         env:
           CI: true
 
